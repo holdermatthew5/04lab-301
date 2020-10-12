@@ -1,54 +1,140 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   header p {
     height: 100%;
     line-height: 450%;
+    background-color: aqua
   }
-
+  
   #b {
     grid-area: 1/1/2/3;
     line-height: 900%;
+    background-color: beige;
   }
 
   #c {
     grid-area: 2/1/3/3;
     line-height: 750%;
+    background-color: bisque;
   }
 
   #d {
     grid-area: 3/1/4/3;
     line-height: 750%;
+    background-color: blanchedalmond;
+  }
+
+  #e {
+    background-color: blue;
+  }
+
+  #f {
+    background-color: blueviolet;}
+
+  #g {
+    background-color: brown;
+  }
+
+  #h {
+    background-color: burlywood;
   }
 
   footer p {
     height: 100%;
     line-height: 550%;
+    background-color: cadetblue;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px), screen and (max-width: 980px) {
+  header p {
+    background-color: aliceblue;
+  }
+
+  #b {
+    grid-area: 1/1/4/2;
+    line-height: 5000%;
+    background-color: aquamarine;
+  }
+
+  #c {
+    grid-area: 1/2/2/4;
+    line-height: 1670%;
+    background-color: coral;
+  }
+
+  #d {
+    grid-area: 1/4/2/6;
+    line-height: 1670%;
+    background-color: chartreuse;
+  }
+
+  #e {
+    background-color: chocolate;
+  }
+
+  #f {
+    background-color: cornflowerblue;
+  }
+
+  #g {
+    background-color: crimson;
+  }
+
+  #h {
+    background-color: cyan;
+  }
+
+  footer p {
+    grid-area: 3/2/4/6;
+    line-height: 1300%;
+    background-color: darkblue;
+  }
+}
+
+@media screen and (min-width: 980px) {
   header p {
     height: 100%;
     line-height: 600%;
+    background-color: darkcyan;
   }
 
   #b {
     grid-area: 1/1/4/2;
     line-height: 3550%;
+    background-color: darkgoldenrod;
   }
 
   #c {
     grid-area: 1/2/2/4;
     line-height: 1200%;
+    background-color: darkgray;
   }
 
   #d {
     grid-area: 1/4/2/6;
     line-height: 1200%;
+    background-color: darkgreen;
   }
+  
+    #e {
+      background-color: darkmagenta;
+    }
 
+    #f {
+      background-color: darkorange;
+    }
+
+    #g {
+      background-color: darkorchid;
+    }
+    
+    #h {
+      background-color: darkred;
+    }
 
   footer p {
     grid-area: 3/2/4/6;
     line-height: 950%;
+    background-color: darksalmon;
   }
 }
