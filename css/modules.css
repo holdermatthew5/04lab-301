@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 573px) {
   header p {
     height: 100%;
     line-height: 450%;
@@ -45,7 +45,7 @@
   }
 }
 
-@media screen and (min-width: 500px), screen and (max-width: 980px) {
+@media screen and (min-width: 574px) and (max-width: 980px) {
   header p {
     background-color: aliceblue;
   }
